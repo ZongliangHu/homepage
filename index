@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* 导航栏样式 */
+        .navbar {
+            background-color: #333;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 20px;
+        }
+
+        .navbar a:hover {
+            color: #ff6347;
+        }
+
+        /* 头部样式 */
+        .header {
+            background-color: #0073e6;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 18px;
+            margin: 10px 0 0;
+        }
+
+        /* 内容区域样式 */
+        .content {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .content h2 {
+            color: #0073e6;
+            font-size: 25px;
+            margin-top: 40px;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        /* 页脚样式 */
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="navbar">
+	     <a href="#sec0">导航栏：    </a>
+        <a href="https://zonglianghu.github.io/homepage/"> 个人简介 </a>
+        <a href="https://zonglianghu.github.io/homepage/research.html">   科研项目和论文</a>
+		<a href="https://zonglianghu.github.io/homepage/students.html">   硕士招生和就业</a>	
+		<a href="https://zonglianghu.github.io/homepage/english.html"> English Homepage</a>	
+    </div>
+
+
+    <!-- 内容区域 -->
+    <div class="content">
+        
+    
+        <h2 id="sec1">个人简介</h2>  
+         <p>
+   		    胡宗良，深圳大学数学科学学院，统计与数据科学系副教授，硕士生导师。毕业于香港浸会大学，2018年12月进入深圳大学工作。
+			曾访问香港浸会大学，香港城市大学，沙特阿卜杜拉国王科技大学等。目前在统计学领域期刊发表SCI论文十余篇，其中包括：Biometrics、
+			Sinica、Scandivian Journal of Statistics等知名国际期刊。 主持科研项目：国家自然科学基金青年项目1项（24万）、广东省自然科学基金面上项目1项（10万）、广东省区域联合基金项目1项（10万）、
+			深圳大学高水平大学建设项目1项，深圳大学教师启动项目1项。担任中国现场统计学会大数据分会理事，中国现场统计学会贝叶斯分会理事，
+			中国现场统计学会旅游与大数据分会理事，广东省现场统计学会理事，担任 JMV, CSDA, Statistical Paper和Journal of Big Data 
+			等SCI期刊的审稿人。<br>
+			
+		 
+			
+			<br>
+			<b>工作和教育经历：</b> <br>
+			 2023.01- 至今，     长聘副教授，深圳大学 <br>
+			 
+			 2018.12-2023.01，  助理教授，深圳大学    <br>
+			 
+			 2015.09-2018.11，  博士（统计学），香港浸会大学    <br>
+			 
+			 2012.09-2015.07，   硕士（统计学），华东师范大学    <br>
+			 
+			 2008.09-2012.07，  本科 （数学与应用数学），     曲阜师范大学    <br>
+			 
+			 
+			 <br>
+			 <b>主要研究方向：</b> <br>
+			  
+			 医学统计、
+			 
+			 生物统计，
+			 
+			 Meta-分析，
+			 
+			 统计检验，深度学习和生成式人工智能。
+			 
+        </p>
+ 
+	 
+
+
+
+
+
+
+	<!--
+		<h2 id="sec2">科研项目</h2>
+        <p>
+		    <li> 广东省自然科学基金， 高位小样本数据的均值检验新方法研究(No.2023A1515010027)，2023-2025. 
+            <li> National Natural Science Foundation of China (No.12001378), 2021-2023. 
+            <li>  Guangdong Basic and Applied Basic Research Foundation (No.2019A1515110449), 2019-2022. 
+                <li>Grant for the Construction of High-Level University, 2020-2023. 
+                <li>Initiation Grant for Youth Scholars of Shenzhen University, 2019-2020. 		
+	    </p>
+		
+		
+
+        <h2 id="sec3">科研论文</h2>
+        <p>
+        <li>     
+		<span> <b>Zongliang Hu</b>, Qianyu Zhou^ and Guanfu Liu (2025)</span><br>
+        Multivariate meta-analysis with a robustified diagonal likelihood function<br>
+        <em>Journal of Applied Statistics</em>, in press. (^ supervised/co-supervised student) <br>
+            
+ <br>
+        <li> <span>Huacong Zou^,  <b>Zongliang Hu</b> and Yan Zhou (2025)</span><br>  
+         A robust method for multivariate random-effects meta-analysis <br>
+        <em>Chinese Journal of Applied Probability and Statistics</em>, in press.  (^ supervised/co-supervised student) <br>
+<br>
+        <li> <span>Yan Zhou, Ruoxi Mei, Yichuan Zhao, <b>Zongliang Hu*</b> and Mingtao Zhao* (2024)</span><br>
+        Orthogonality-based bias-corrected empirical likelihood inference for partial linear varying coefficient EV models with longitudinal data<br>
+        <em>Journal of Computational and Applied Mathematics</em>, 443: 115751. <br>
+<br>
+        <li> <span><b>Zongliang Hu</b>, Yafang Wu^ and Yan Zhou (2024)</span><br>
+        Meta-analyzing RNA-seq studies with an adaptive weighting-and-truncation p-value combination test<br>
+        <em>Applied Mathematical Modelling</em>, 136: 115611. (^ supervised/co-supervised student) <br>
+<br>
+        <li> <span><b>Zongliang Hu</b>, Tiejun Tong and Marc G. Genton (2024)</span><br>
+        A pairwise Hotelling method for testing high-dimensional mean vectors<br>
+        <em>Statistica Sinica</em>, 34: 229-256. <br>
+<br>
+        <li> <span><b>Zongliang Hu</b>, Yiping Yang, Gaorong Li and Tiejun Tong (2023)</span><br>
+        Regularized t distribution: definition, properties and applications<br>
+        <em>Scandinavian Journal of Statistics</em>, 50: 1884-1900. <br>
+<br>
+        <li> <span>Guanfu Liu and <b>Zongliang Hu*</b> (2023)</span><br>
+        Testing quantitative trait locus effects in genetic backcross studies with double recombination occurring<br>
+        <em>Journal of Applied Statistics</em>, 50: 927-944.<br>
+<br>
+        <li> <span>Rongji Mu, <b>Zongliang Hu*</b>, Guoying Xu and Haitao Pan* (2021)</span><br>
+        An adaptive gBOIN design with shrinkage boundaries for phase I dose-finding trials<br>
+        <em>BMC Medical Research Methodology</em>, 21: 278.<br>
+<br>
+        <li> <span><b>Zongliang Hu</b>, Yan Zhou and Tiejun Tong (2021)</span><br>
+        Meta-analyzing multiple omics data with robust variable selection<br>
+        <em>Frontiers in Genetics</em>, 12: 656826.<br>
+<br> 
+        <li> <span><b>Zongliang Hu</b>, Zhishui Hu, Kai Dong, Tiejun Tong and Yuedong Wang (2021)</span><br>
+        A shrinkage approach to joint estimation of multiple covariance matrices<br>
+        <em>Metrika</em>, 84: 339-374.<br>
+<br> 
+        <li> <span>Jiajin Wei, Enxuan Lin, Jiandong Shi, Ke Yang, <b>Zongliang Hu</b>, Xian-Tao Zeng and Tiejun Tong (2021)</span><br>
+        Meta-analysis with zero-event studies: a comparative study with application to COVID-19 data<br>
+        <em>Military Medical Research</em>, 8: 41.<br>
+<br> 
+        <li> <span>Dongdong Xiang, Amitava Mukherjee, <b>Zongliang Hu</b>, Wendong Li (2021)</span><br>
+        Online anomaly detection of profiles with varying coefficients via functional mixed effects modelling<br>
+        <em>Applied Mathematical Modelling</em>, 9: 467-484.<br>
+<br>
+        <li> <span><b>Zongliang Hu</b>, Tiejun Tong and Marc G. Genton (2019)</span><br>
+        Diagonal likelihood ratio test for equality of mean vectors in high-dimensional data<br>
+        <em>Biometrics</em>, 75: 256-267.<br>
+<br> 
+        <li> <span><b>Zongliang Hu</b>, Kai Dong, Wenlin Dai and Tiejun Tong (2017)</span><br>
+        A comparison of methods for estimating the determinant of high-dimensional covariance matrix<br>
+        <em>International Journal of Biostatistics</em>, 13: 20170013.
+ 
+       
+     </p>
+        
+		
+	<h2 id="sec4">硕士招生和就业</h2>
+        <p>
+		  招生信息，研究生主要研究内容，以及本人所带研究生的就业情况，请点击链接：	
+	    </p>
+		
+		
+	 -->
+	   
+ 
+ 
+<footer>
+    <hr style="border: 10; height: 1px; background: #333; margin-top: 40px; margin-bottom: 10;"> <!-- 横向分界线 -->
+    <nav style="white-space: nowrap;">
+	    <a >常用链接：</a>  
+        <a href="http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a> |
+        <a href="https://www-webofscience-com.ezproxy.lib.szu.edu.cn/wos/woscc/basic-search" target="_blank">Web of Science</a> |
+        <a href="http://www.math.ucla.edu/~tom/ProbStatJ.html" target="_blank">Statistics Journals</a> |
+        <a href="https://gfsoso.99lb.net/" target="_blank">Baidu Scholar</a> |
+        <a href="https://www-cnki-net.ezproxy.lib.szu.edu.cn" target="_blank">CNKI</a> |
+        <a href="http://www.math.ucla.edu/~tom/ProbStatJ.html" target="_blank">Google Scholar</a> |
+        <a href="https://1lib.cf/" target="_blank">Free Ebooks</a> |
+        <a href="others.html" target="_blank">Other Links</a>
+    </nav>
+</footer>
+
+
+</body>
+</html>
