@@ -47,14 +47,14 @@
         }
 
         .header p {
-            font-size: 18px;
+            font-size: 20px;
             margin: 10px 0 0;
         }
 
         /* 内容区域样式 */
         .content {
             padding: 20px;
-            max-width: 1000px;
+            max-width: 90%;
             margin: 0 auto;
         }
 
@@ -65,7 +65,7 @@
         }
 
         .content p {
-            font-size: 18px;
+            font-size: 20px;
             line-height: 1.8;
         }
 
@@ -85,6 +85,60 @@
 
         .footer a:hover {
             text-decoration: underline;
+        }
+		
+		/* 媒体查询：平板设备 */
+        @media (max-width: 1024px) {
+            .content {
+                max-width: 90%;
+                padding: 15px;
+            }
+
+            .header h1 {
+                font-size: 36px;
+            }
+
+            .header p {
+                font-size: 18px;
+            }
+
+            .content p {
+                font-size: 18px;
+            }
+        }
+
+        /* 媒体查询：手机设备 */
+        @media (max-width: 768px) {
+            .content {
+                max-width: 100%;
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .header p {
+                font-size: 16px;
+            }
+
+            .content p {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+
+            .content h2 {
+                font-size: 22px;
+            }
+
+            .navbar {
+                padding: 10px;
+            }
+
+            .navbar a {
+                font-size: 16px;
+                margin: 0 10px;
+            }
         }
     </style>
 </head>
