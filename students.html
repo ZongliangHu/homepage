@@ -56,17 +56,82 @@
             padding: 20px;
             max-width: 900px;
             margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            min-height: 80vh;
         }
 
         .content h2 {
             color: #0073e6;
             font-size: 25px;
             margin-top: 40px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
         }
 
         .content p {
-            font-size: 20px;
+            font-size: 18px;
             line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        /* 科研课题样式 */
+        .research-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            border-left: 5px solid #0073e6;
+        }
+
+        .research-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .sub-topic {
+            margin-top: 15px;
+            padding-left: 15px;
+            border-left: 3px solid #ddd;
+        }
+
+        .sub-topic strong {
+            color: #0073e6;
+            font-size: 19px;
+        }
+
+        /* 毕业生去向样式 */
+        .graduate-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .graduate-table th {
+            background-color: #0073e6;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-size: 18px;
+            border: 1px solid #ddd;
+        }
+
+        .graduate-table td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+            font-size: 18px;
+        }
+
+        .graduate-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .graduate-table tr:hover {
+            background-color: #f1f1f1;
         }
 
         /* 页脚样式 */
@@ -86,22 +151,19 @@
         .footer a:hover {
             text-decoration: underline;
         }
-		
-		/* 媒体查询：平板设备 */
+
+        /* 媒体查询：平板设备 */
         @media (max-width: 1024px) {
             .content {
                 max-width: 90%;
                 padding: 15px;
             }
-
             .header h1 {
                 font-size: 36px;
             }
-
             .header p {
                 font-size: 18px;
             }
-
             .content p {
                 font-size: 18px;
             }
@@ -113,31 +175,32 @@
                 max-width: 100%;
                 padding: 10px;
             }
-
             .header h1 {
                 font-size: 28px;
             }
-
             .header p {
                 font-size: 16px;
             }
-
             .content p {
                 font-size: 16px;
                 line-height: 1.6;
             }
-
             .content h2 {
                 font-size: 22px;
             }
-
             .navbar {
                 padding: 10px;
             }
-
             .navbar a {
                 font-size: 16px;
                 margin: 0 10px;
+            }
+            .research-item {
+                padding: 15px;
+            }
+            .graduate-table th, .graduate-table td {
+                padding: 8px;
+                font-size: 16px;
             }
         }
     </style>
@@ -148,91 +211,98 @@
 	     <a href="#sec0">导航栏：    </a>
         <a href="https://zonglianghu.github.io/homepage/"> 个人简介 </a>
         <a href="https://zonglianghu.github.io/homepage/research.html">   科研项目和论文</a>
-		<a href="https://zonglianghu.github.io/homepage/students.html">   硕士招生和就业</a>	
-		<a href="https://zonglianghu.github.io/homepage/english.html"> English Homepage</a>	
+		<a href="https://zonglianghu.github.io/homepage/students.html">   硕士招生和就业</a>
+		<a href="https://zonglianghu.github.io/homepage/english.html"> English Homepage</a>
     </div>
-
-
 
     <!-- 内容区域 -->
     <div class="content">
-   
-	 
-		<h2 id="sec3">2026硕士招生</h2>
- 
+        <h2 id="sec1">2026硕士招生</h2>
 
-		<p>   <strong>课题一：异常检验</strong> <br>
-	 
-                  &nbsp; &nbsp  &nbsp; &nbsp  针对函数型数据，开发一种新的在线异常检验方法。例如，在机械手臂上安装传感器，连续测量其运动轨迹（如位置、速度等）,   
-                  生成轨迹随时间变化的函数型数据。通过函数型数据统计在线监控，可以实时监控机械手臂的运动轨迹、力度、速度等连续变量， 
-                  从而优化其性能并减少故障。 
-		</p> 
-            
-	    <hr style="border: 0; height: 1px; background: #333; margin-top: 0px; margin-bottom: 10;"> <!-- 横向分界线 -->		
-        <p>
-            课题二：临床实验设计 <br>
-                  &nbsp; &nbsp &nbsp; &nbsp   <strong> 1. 剂量探索</strong>：在新药研发的过程中，一期临床实验的宗旨在于探索药物毒性和剂量，从而选择出针对人类 
-                使用药物的最佳剂量。本课题从贝叶斯最优区间设计入手，探索最佳剂量的确定方案；<br> 
-				  
-                
-				&nbsp; &nbsp &nbsp; &nbsp     2. 篮子实验设计：篮子研究是将相同靶基因的不同肿瘤放入一个篮子里，应用潜在作用于该靶点的实验药物， 
-                评估其疗效和安全性，其目的就是研究可以治疗多种疾病或者疾病亚型的靶向疗法，属于精准医学领域。
-        </p>  
-		
-      <hr style="border: 0; height: 1px; background: #333; margin-top: 0px; margin-bottom: 10;"> <!-- 横向分界线 -->
- 
-         <p>
-               课题三：基于人工智能算法的统计问题研究 <br>
-                  &nbsp; &nbsp; &nbsp; &nbsp   1. 基于深度生成模型金融安全与风险管理：探索利用和创新AIGC中常见的生成算法，例如，VAE、GAN、Normalizing Flow 
-				   和 Diffusion Model， 
-				   针对时间序列数据，开发新模型计算风险指标，例如，VaR (Value at Risk)， ES (Expected Shortfall) 
-				   和 CVaR (Conditional Value at Risk)，
-                   对时序数据的尾部风险进行评估，也可以对具有外部图结构的多元时间序列构成的系统进行风险评估。 
-				   本课题也可以与异常检验相互交叉。 
-				   </br>
+        <!-- 课题一 -->
+        <div class="research-item">
+            <span class="research-title">课题一：异常检验</span>
+            <p>
+                针对函数型数据，开发一种新的在线异常检验方法。例如，在机械手臂上安装传感器，连续测量其运动轨迹（如位置、速度等），生成轨迹随时间变化的函数型数据。通过函数型数据统计在线监控，可以实时监控机械手臂的运动轨迹、力度、速度等连续变量，从而优化其性能并减少故障。
+            </p>
+        </div>
 
-				  &nbsp; &nbsp; &nbsp; &nbsp    <strong>2. 多模态数据整合分析</strong>：研究多模态数据的融合，进行跨模态语义对齐和学习，
-				  利用一种模态的数据增强另一种模态的学习效果
-				  
-				  （例如利用电子病历文本增强医学图像分割、分类）；研究多组学数据的融合分析，将自不同组学层次的数据（如基因组学、转录组学等）
-				 
-				   进行整合和分析，可以对样本进行分类、聚类、预测，也可以在药物研发中筛选药物靶点。  
-			  
-	    </p>
-		 
-		
-		
-		
-		
-		
-		
-		
-		
-		<h2 id="sec3">毕业生去向</h2>
-        <p>
-			
-        2026届：杨*宇，抖音公司（北京总部）； 杨*晨，宝安区高中教师  <br>
-			
-		2025届：曾**，百融云创科技股份有限公司；   周**，比亚迪    <br>
-			 
-		2024届：唐**，东北师大读博士      <br>
-			 
-		2023届，邹**， 贵州航天计量测试技术研究所   <br>
-			 
-		2022届，吴**， 坪山区中学教师      <br>
-			 
-	 
-		</p>
-		
-		
-		
- </div>
-		
-		
-	   
- 
- 
- 
+        <!-- 课题二 -->
+        <div class="research-item">
+            <span class="research-title">课题二：临床实验设计</span>
+
+            <div class="sub-topic">
+                <strong>1. 剂量探索</strong>
+                <p>
+                在新药研发的过程中，一期临床实验的宗旨在于探索药物毒性和剂量，从而选择出针对人类使用药物的最佳剂量。本课题从贝叶斯最优区间设计入手，探索最佳剂量的确定方案。
+                </p>
+            </div>
+
+            <div class="sub-topic">
+                <strong>2. 篮子实验设计</strong>
+                <p>
+                篮子研究是将相同靶基因的不同肿瘤放入一个篮子里，应用潜在作用于该靶点的实验药物，评估其疗效和安全性。其目的就是研究可以治疗多种疾病或者疾病亚型的靶向疗法，属于精准医学领域。
+                </p>
+            </div>
+        </div>
+
+        <!-- 课题三 -->
+        <div class="research-item">
+            <span class="research-title">课题三：基于人工智能算法的统计问题研究</span>
+
+            <div class="sub-topic">
+                <strong>1. 基于深度生成模型金融安全与风险管理</strong>
+                <p>
+                探索利用和创新AIGC中常见的生成算法，例如 VAE、GAN、Normalizing Flow 和 Diffusion Model。针对时间序列数据，开发新模型计算风险指标，例如 VaR (Value at Risk)、ES (Expected Shortfall) 和 CVaR (Conditional Value at Risk)。对时序数据的尾部风险进行评估，也可以对具有外部图结构的多元时间序列构成的系统进行风险评估。本课题也可以与异常检验相互交叉。
+                </p>
+            </div>
+
+            <div class="sub-topic">
+                <strong>2. 多模态数据整合分析</strong>
+                <p>
+                研究多模态数据的融合，进行跨模态语义对齐和学习，利用一种模态的数据增强另一种模态的学习效果（例如利用电子病历文本增强医学图像分割、分类）；研究多组学数据的融合分析，将不同组学层次的数据（如基因组学、转录组学等）进行整合和分析，可以对样本进行分类、聚类、预测，也可以在药物研发中筛选药物靶点。
+                </p>
+            </div>
+        </div>
+
+        <h2 id="sec2">毕业生去向</h2>
+        <table class="graduate-table">
+            <thead>
+                <tr>
+                    <th>毕业年份</th>
+                    <th>毕业生去向</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2026届</td>
+                    <td>杨*宇（抖音公司 北京总部）；杨*晨（宝安区高中教师）</td>
+                </tr>
+                <tr>
+                    <td>2025届</td>
+                    <td>曾&zwnj;**（百融云创科技股份有限公司）；周**&zwnj;（比亚迪）</td>
+                </tr>
+                <tr>
+                    <td>2024届</td>
+                    <td>唐**（东北师范大学读博士）</td>
+                </tr>
+                <tr>
+                    <td>2023届</td>
+                    <td>邹**（贵州航天计量测试技术研究所）</td>
+                </tr>
+                <tr>
+                    <td>2022届</td>
+                    <td>吴**（坪山区中学教师）</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer">
+        <p>&copy; 2026 Zongliang Hu. All Rights Reserved.</p>
+    </div>
 
 </body>
 </html>
